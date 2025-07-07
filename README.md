@@ -1,68 +1,70 @@
-# Course Material and FAQ for the Ultimate React Course
+# Getting Started with Create React App
 
-This branch of the repo contains starter files and final code for all sections and projects of the course, **exactly as shown in the videos**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Use starter code to start each section, and **final code to compare it with your own code whenever something doesn't work**!
+## Available Scripts
 
-🚨 **_Please read the following Frequently Asked Questions (FAQ) carefully before starting the course_** 🚨
+In the project directory, you can run:
 
-## FAQ
+### `npm start`
 
-### Q1: How do I download the files?
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**A:** If you just want to download the entire code, click the green button saying "Code", and then choose the "Download ZIP" option. If you can't see the button (on mobile), use [this link](https://github.com/jonasschmedtmann/ultimate-react-course/archive/main.zip) instead.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Q2: I'm stuck! Where do I get help?
+### `npm test`
 
-**A:** Have you tried to fix the problem on your own? **Have you compared your code with the final code?** Are you using the library versions as indicated in the course videos? If you failed fixing your problem, please **post a detailed description of the problem to the Q&A area of that video over at Udemy**, along with a link to a [codesandbox](https://codesandbox.io/) containing your code.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Q3: Can I see a final version of the course projects?
+### `npm run build`
 
-**A:** Sure! Here you go:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- [Pizza Menu](https://fast-react-pizza-menu.netlify.app/) (Components, props, JSX)
-- [Travel List](https://travel-list-jonas.netlify.app/) (useState and state management)
-- [Eat-n-split](https://eat-n-split.netlify.app/) (Practice project)
-- [usePopcorn](https://usepopcorn.netlify.app) (useEffect, data fetching, custom hooks)
-- [Classy weather](https://classy-weather.netlify.app/) (Class components)
-- [Quiz App](https://the-react-quiz.netlify.app/) (useReducer)
-- [WorldWise](https://worldwise-jonas.netlify.app/) (React Router, context API, memo, useMemo, useCallback)
-- [Fast React Pizza](https://fast-react-pizza.netlify.app/) (React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS)
-- [The Wild Oasis](https://the-wild-oasis.vercel.app) (React Query, Styled Components, React Hook Form, Supabase, advanced compound component pattern, authentication, charts, dark mode, professional application planning and development)
-- [The Wild Oasis Website](https://the-wild-oasis-website.vercel.app/) (Next.js "app" router, React Server Components, server actions, authentication with NextAuth)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Q4: What VSCode theme are you using?
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**A:** I use [One Monokai](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) in this course. For the icons, I'm using [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
+### `npm run eject`
 
-### Q5: Videos don't load, can you fix it?
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**A:** Unfortunately, there is nothing I can do about it. The course is hosted on Udemy, and sometimes they have technical issues. Please just come back a bit later or [contact their support team](https://support.udemy.com/hc/en-us).
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Q6: Videos are blurred / have low quality, can you fix it?
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**A:** Please open video settings and change the quality from 'Auto' to another value, for example 720p. If that doesn't help, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Q7: Are videos downloadable?
+## Learn More
 
-**A:** Videos used to be downloadable, but unfortunately, Udemy has disabled video downloads on all my courses in order to fight piracy. There is nothing I can do about this.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Q8: I want to put these projects in my portfolio. Is that allowed?
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**A:** Absolutely! Just make sure you actually built them yourself by following the course, and that you understand what you did. What is **not allowed** is that you create your own course/videos/articles based on this course's content!
+### Code Splitting
 
-### Q9: I love your courses and want to get updates on new ones. How?
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-**A:** First, you can subscribe to my email list [at my website](http://codingheroes.io/resources). Plus, I make important announcements on twitter [@jonasschmedtman](https://twitter.com/jonasschmedtman), so you should definitely follow me there 🔥
+### Analyzing the Bundle Size
 
-### Q10: How do I get my certificate of completion?
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**A:** A certificate of completion is provided by Udemy after you complete 100% of the course. After completing the course, just click on the "Your progress" indicator in the top right-hand corner of the course page. If you want to change your name on the certificate, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
+### Making a Progressive Web App
 
-### Q11: Can you add subtitles in my language?
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-**A:** No. I provide professional English captions, but Udemy is responsible for subtitles in all other languages (automatic translations). So please [contact the Udemy support team](https://support.udemy.com/hc/en-us) to request your own language.
+### Advanced Configuration
 
-### Q12: Do you accept pull requests?
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**A:** No, because this repository should contain the _exact_ same code that is shown in the videos. _However, feel free to add an issue if you found one._
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
